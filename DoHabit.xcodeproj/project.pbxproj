@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C67CBDE2AFD855F001B907D /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C67CBDD2AFD855F001B907D /* AddView.swift */; };
+		1C91CFCA2B03940E00C71408 /* HabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C91CFC92B03940D00C71408 /* HabitView.swift */; };
 		1CFD6F4E2AF99E4900B5BEC5 /* DoHabitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD6F4D2AF99E4900B5BEC5 /* DoHabitApp.swift */; };
 		1CFD6F502AF99E4900B5BEC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD6F4F2AF99E4900B5BEC5 /* ContentView.swift */; };
 		1CFD6F522AF99E4C00B5BEC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD6F512AF99E4C00B5BEC5 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C67CBDD2AFD855F001B907D /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		1C91CFC92B03940D00C71408 /* HabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitView.swift; sourceTree = "<group>"; };
 		1CFD6F4A2AF99E4900B5BEC5 /* DoHabit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoHabit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFD6F4D2AF99E4900B5BEC5 /* DoHabitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoHabitApp.swift; sourceTree = "<group>"; };
 		1CFD6F4F2AF99E4900B5BEC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,6 +41,7 @@
 		1CFD6F412AF99E4900B5BEC5 = {
 			isa = PBXGroup;
 			children = (
+				1C67CBDD2AFD855F001B907D /* AddView.swift */,
 				1CFD6F4C2AF99E4900B5BEC5 /* DoHabit */,
 				1CFD6F4B2AF99E4900B5BEC5 /* Products */,
 			);
@@ -55,6 +60,7 @@
 			children = (
 				1CFD6F4D2AF99E4900B5BEC5 /* DoHabitApp.swift */,
 				1CFD6F4F2AF99E4900B5BEC5 /* ContentView.swift */,
+				1C91CFC92B03940D00C71408 /* HabitView.swift */,
 				1CFD6F5B2AF9A05800B5BEC5 /* Activity.swift */,
 				1CFD6F512AF99E4C00B5BEC5 /* Assets.xcassets */,
 				1CFD6F532AF99E4C00B5BEC5 /* Preview Content */,
@@ -140,9 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C67CBDE2AFD855F001B907D /* AddView.swift in Sources */,
 				1CFD6F5C2AF9A05800B5BEC5 /* Activity.swift in Sources */,
 				1CFD6F502AF99E4900B5BEC5 /* ContentView.swift in Sources */,
 				1CFD6F4E2AF99E4900B5BEC5 /* DoHabitApp.swift in Sources */,
+				1C91CFCA2B03940E00C71408 /* HabitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

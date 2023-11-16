@@ -12,7 +12,7 @@ struct Activity: Codable, Identifiable {
     let id: UUID
     let title: String
     let description: String
-    let days: Int
+    var days: Int
 }
 
 class Activities: ObservableObject {

@@ -41,7 +41,6 @@
 		1CFD6F412AF99E4900B5BEC5 = {
 			isa = PBXGroup;
 			children = (
-				1C67CBDD2AFD855F001B907D /* AddView.swift */,
 				1CFD6F4C2AF99E4900B5BEC5 /* DoHabit */,
 				1CFD6F4B2AF99E4900B5BEC5 /* Products */,
 			);
@@ -58,6 +57,7 @@
 		1CFD6F4C2AF99E4900B5BEC5 /* DoHabit */ = {
 			isa = PBXGroup;
 			children = (
+				1C67CBDD2AFD855F001B907D /* AddView.swift */,
 				1CFD6F4D2AF99E4900B5BEC5 /* DoHabitApp.swift */,
 				1CFD6F4F2AF99E4900B5BEC5 /* ContentView.swift */,
 				1C91CFC92B03940D00C71408 /* HabitView.swift */,

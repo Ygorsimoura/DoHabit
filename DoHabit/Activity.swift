@@ -22,6 +22,7 @@ class Activities: ObservableObject {
                 UserDefaults.standard.set(encoded, forKey: "Items")
             }
         }
+        
     }
     
     init() {
@@ -32,6 +33,6 @@ class Activities: ObservableObject {
             }
         }
         
-        items = [] // caso falhem será um array vazio
+        items = []
     }
 }
